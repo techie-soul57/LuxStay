@@ -29,15 +29,13 @@ const Footer = () => {
 
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>123 Hotel Street, City</p>
+          <p>LuxStay Hotel Street, Sikar</p>
           <p>Phone: (123) 456-7890</p>
           <p>Email: info@luxstay.com</p>
         </div>
       </div>
 
-      <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} LuxStay Hotel. All rights reserved.</p>
-      </div>
+
     </footer>
   )
 }

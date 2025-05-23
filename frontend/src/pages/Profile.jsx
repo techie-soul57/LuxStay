@@ -136,6 +136,10 @@ const Profile = () => {
     return <div className="error">Error: {error}</div>
   }
 
+  if (!user) {
+    return <div className="error">No user data available</div>
+  }
+
   return (
     <div className="profile-page">
       <div className="container">

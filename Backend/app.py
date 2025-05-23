@@ -33,7 +33,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///hotel.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize database
-db = SQLAlchemy(app)
+db = SQLAlchemy(app)    
 
 # Models
 class User(db.Model):
